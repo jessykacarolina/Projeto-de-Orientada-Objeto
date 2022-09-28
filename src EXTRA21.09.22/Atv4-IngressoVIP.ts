@@ -1,17 +1,20 @@
 import { Ingresso } from "./Atv4-Ingresso";
 
-export class IngressoVip extends Ingresso{
-    valor: string;
+export class IngressoVIP extends Ingresso {
+    valorAdicional: number;
+    valorIngressoVIP: number;
 
-    constructor (
-        valor: string,
-    ){
-        super(valor)
-        this.valor = valor
-    }
-    verValor(): void{
-        console.log("VALORES DOS INGRESSOS")
-        this.valor = this.valor + 10
-        console.log(`O valor do Ingresso VIP é: ${this.valor}.`)
-    }
+constructor (
+    valor: number,
+    valorAdicional: number,
+    valorIngressoVIP: number
+) {
+    super (valor)
+    this.valorAdicional = valorAdicional
+    this.valorIngressoVIP = valorIngressoVIP
+}
+toString () {
+    this.valorIngressoVIP = this.valor + this.valorAdicional
+    console.log (`O valor do ingresso VIP é ${this.valorIngressoVIP} reais.`)
+}
 }

@@ -1,11 +1,12 @@
-export abstract class Ingresso {
-    valor: string;
+export class Ingresso {
+    valor: number;
 
-    constructor (
-        valor: string,
-    ){
-        this.valor=valor
-    }
-    verValor (): void{}
-    verVip(): void{}
+constructor (
+    valor: number
+) {
+    this.valor = valor
+}
+valorIngresso () {
+    console.log (`O valor do ingresso é ${this.valor} reais.`)
+}
 }
