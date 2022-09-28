@@ -3,7 +3,7 @@ Crie uma classe para representar uma pessoa, com os atributos privados de nome, 
 nascimento e altura. Crie os métodos necessários para imprimir todos dados de uma pessoa, 
 um para calcular a idade da pessoa.*/
 
-import { Pessoa } from "./src EXTRA21.09.22/Atividades/Atv1-pessoa"
+import { Pessoa } from "./src EXTRA21.09.22/Atv1-pessoa"
 
 
 let pessoa1 = new Pessoa ("Sérgio",11,1,2001,1.80)
@@ -26,7 +26,7 @@ dentro dele);
 Sobe : para subir um andar (não deve subir se já estiver no último andar);
 Desce : para descer um andar (não deve descer se já estiver no térreo);
 Encapsular todos os atributos da classe*/
-import { Elevador } from "./src EXTRA21.09.22/Atividades/Atv2-elevador"
+import { Elevador } from "./src EXTRA21.09.22/Atv2-elevador"
 
 let elevador1 = new Elevador(0, 6, 6, 0)
 
@@ -45,7 +45,7 @@ trocar os canais da televisão. O controle de volume permite:
  trocar para um canal indicado;
 consultar o valor do volume de som e o canal selecionado.*/
 
-import { ControleRemoto } from "./src EXTRA21.09.22/Atividades/Atv3-ControleRemoto";
+import { ControleRemoto } from "./src EXTRA21.09.22/Atv3-ControleRemoto";
 
 let controleUm = new ControleRemoto (16, 25, "100%");
 
@@ -61,8 +61,8 @@ Ingresso e possui um atributo valor Adicional. O método toString da classe Ingr
 deve considerar que o valor do ingresso é o valor da superclasse somado ao valor 
 Adicional do IngressoVIP*/
 
-import { Ingresso } from "./src EXTRA21.09.22/Atividades/Atv4-Ingresso";
-import { IngressoVIP } from "./src EXTRA21.09.22/Atividades/Atv4-IngressoVIP";
+import { Ingresso } from "./src EXTRA21.09.22/Atv4-Ingresso";
+import { IngressoVIP } from "./src EXTRA21.09.22/Atv4-IngressoVIP";
 
 //let ingressoUm = new Ingresso (70);
 let vipUm = new IngressoVIP (70, 30, 0);
@@ -77,8 +77,8 @@ métodos de acesso e impressão deste valor adicional.
 b. crie uma classe Velho, que herda Imovel e possui um desconto no preço. Crie
 métodos de acesso e impressão para este desconto*/
 
-import { Novo } from "./src EXTRA21.09.22/Atividades/Atv5-Imovel-Novo";
-import { Velho } from "./src EXTRA21.09.22/Atividades/Atv5-Imovel-Velho";
+import { Novo } from "./src EXTRA21.09.22/Atv5-Imovel-Novo";
+import { Velho } from "./src EXTRA21.09.22/Atv5-Imovel-Velho";
 
 let novoUm = new Novo ("Avenida das Américas, 75", "120.000", "30.000");
 let velhoUm = new Velho ("Avenida das Américas, 75", "120.000", "20.000");
