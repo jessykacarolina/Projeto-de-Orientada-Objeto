@@ -1,0 +1,33 @@
+Collections // listas (vetores)
+arrow functions 
+
+collections =  variavel que armazena varias coisas.
+
+Array:
+
+array não muda. apenas escolhe string ou number. nao precisa colocar indentificando, mas por boas
+praticas, seria melhor já deixar declarado qual sua array. (String ou number)
+
+
+esses são os meios de usar/declarar uma array
+
+//let  indentificador = new Array<string> 
+//let identificador: string [] = []
+//let identificador = ["Nome"]
+
+proporiedade:
+push = adiciona elementos
+
+forEach ou forOff só pode ser usado em array
+
+
+alguns comandos"
+como remover um produto de uma array:
+conso()le.log(alunos)
+".pop" remove SEMPRE o ultimo elemento da array
+".shift()" remove o primeiro elemento
+"splice("dizer o elemento que ele vai começar eliminar e quando vai parar.)Ex:(1,1)
+esquerda é a casa de você começ e dps o outro é até onde vai apagar. apaga esse ultimo digito
+e os anteriores a ele. 
+
+&& || é usado SOMENTE em condicional.
